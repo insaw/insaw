@@ -1,8 +1,23 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
+html {
+  font-size: 17px;
+}
+
+@media (max-width: 767px) {
+  html{
+    font-size: 14px;
+  }
+}
+
 body {
   padding-bottom: 2rem;
 }
 
+@media (max-width: 575px) {
+  body{
+    text-align: center;
+  }
+}
 
 h3 {
 	font-size: 1.6rem;
@@ -16,6 +31,10 @@ a {
 
 .img-fluid {
 
+}
+
+.header-photo{
+  margin-bottom: 5px;
 }
 
 .display-3 {
