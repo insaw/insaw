@@ -57,9 +57,11 @@ a {
 
 
 .contacts a {
-    padding: 8px;
+    padding: 16px;
     vertical-align: top;
 }
+
+
 
 .contacts a img {
     max-width: 50%;
